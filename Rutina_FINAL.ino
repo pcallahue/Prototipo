@@ -538,7 +538,7 @@ void loop() {
       analogWrite(pwmPinDerecha, 0);
     }
     
-    if (inputDerecha<-2500)&& inputIzquierda>5200){
+    if (inputDerecha<-2500 && inputIzquierda>2500){
       if (base_anguloprevio>95){
         int ang1 = base_anguloprevio-6;
         base_angulonuevo = ang1;
